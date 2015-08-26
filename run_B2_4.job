@@ -1,0 +1,163 @@
+Universe        = vanilla
+Notification    = never
+Requirements    = (CPU_Type != "crs") && (CPU_Experiment == "star")
+Rank            = CPU_Speed
+Priority        = +19
+GetEnv          = True
+Initialdir      = /star/u/zamiller/simu/NPETemplates
+Input           = /dev/null
+Notify_user     = zamiller@rcf.rhic.bnl.gov
+GetEnv          = True
++Experiment     = "star"
++Job_Type       = "cas"
+
+Executable       = script/run_B2_4_0.csh
+Output           = log/B2_4_0.out
+Error            = log/B2_4_0.err
+Log              = log/B2_4_0.olog
+Queue
+
+Executable       = script/run_B2_4_1.csh
+Output           = log/B2_4_1.out
+Error            = log/B2_4_1.err
+Log              = log/B2_4_1.olog
+Queue
+
+Executable       = script/run_B2_4_2.csh
+Output           = log/B2_4_2.out
+Error            = log/B2_4_2.err
+Log              = log/B2_4_2.olog
+Queue
+
+Executable       = script/run_B2_4_3.csh
+Output           = log/B2_4_3.out
+Error            = log/B2_4_3.err
+Log              = log/B2_4_3.olog
+Queue
+
+Executable       = script/run_B2_4_4.csh
+Output           = log/B2_4_4.out
+Error            = log/B2_4_4.err
+Log              = log/B2_4_4.olog
+Queue
+
+Executable       = script/run_B2_4_5.csh
+Output           = log/B2_4_5.out
+Error            = log/B2_4_5.err
+Log              = log/B2_4_5.olog
+Queue
+
+Executable       = script/run_B2_4_6.csh
+Output           = log/B2_4_6.out
+Error            = log/B2_4_6.err
+Log              = log/B2_4_6.olog
+Queue
+
+Executable       = script/run_B2_4_7.csh
+Output           = log/B2_4_7.out
+Error            = log/B2_4_7.err
+Log              = log/B2_4_7.olog
+Queue
+
+Executable       = script/run_B2_4_8.csh
+Output           = log/B2_4_8.out
+Error            = log/B2_4_8.err
+Log              = log/B2_4_8.olog
+Queue
+
+Executable       = script/run_B2_4_9.csh
+Output           = log/B2_4_9.out
+Error            = log/B2_4_9.err
+Log              = log/B2_4_9.olog
+Queue
+
+Executable       = script/run_B2_4_10.csh
+Output           = log/B2_4_10.out
+Error            = log/B2_4_10.err
+Log              = log/B2_4_10.olog
+Queue
+
+Executable       = script/run_B2_4_11.csh
+Output           = log/B2_4_11.out
+Error            = log/B2_4_11.err
+Log              = log/B2_4_11.olog
+Queue
+
+Executable       = script/run_B2_4_12.csh
+Output           = log/B2_4_12.out
+Error            = log/B2_4_12.err
+Log              = log/B2_4_12.olog
+Queue
+
+Executable       = script/run_B2_4_13.csh
+Output           = log/B2_4_13.out
+Error            = log/B2_4_13.err
+Log              = log/B2_4_13.olog
+Queue
+
+Executable       = script/run_B2_4_14.csh
+Output           = log/B2_4_14.out
+Error            = log/B2_4_14.err
+Log              = log/B2_4_14.olog
+Queue
+
+Executable       = script/run_B2_4_15.csh
+Output           = log/B2_4_15.out
+Error            = log/B2_4_15.err
+Log              = log/B2_4_15.olog
+Queue
+
+Executable       = script/run_B2_4_16.csh
+Output           = log/B2_4_16.out
+Error            = log/B2_4_16.err
+Log              = log/B2_4_16.olog
+Queue
+
+Executable       = script/run_B2_4_17.csh
+Output           = log/B2_4_17.out
+Error            = log/B2_4_17.err
+Log              = log/B2_4_17.olog
+Queue
+
+Executable       = script/run_B2_4_18.csh
+Output           = log/B2_4_18.out
+Error            = log/B2_4_18.err
+Log              = log/B2_4_18.olog
+Queue
+
+Executable       = script/run_B2_4_19.csh
+Output           = log/B2_4_19.out
+Error            = log/B2_4_19.err
+Log              = log/B2_4_19.olog
+Queue
+
+Executable       = script/run_B2_4_20.csh
+Output           = log/B2_4_20.out
+Error            = log/B2_4_20.err
+Log              = log/B2_4_20.olog
+Queue
+
+Executable       = script/run_B2_4_21.csh
+Output           = log/B2_4_21.out
+Error            = log/B2_4_21.err
+Log              = log/B2_4_21.olog
+Queue
+
+Executable       = script/run_B2_4_22.csh
+Output           = log/B2_4_22.out
+Error            = log/B2_4_22.err
+Log              = log/B2_4_22.olog
+Queue
+
+Executable       = script/run_B2_4_23.csh
+Output           = log/B2_4_23.out
+Error            = log/B2_4_23.err
+Log              = log/B2_4_23.olog
+Queue
+
+Executable       = script/run_B2_4_24.csh
+Output           = log/B2_4_24.out
+Error            = log/B2_4_24.err
+Log              = log/B2_4_24.olog
+Queue
+

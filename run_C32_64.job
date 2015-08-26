@@ -1,0 +1,163 @@
+Universe        = vanilla
+Notification    = never
+Requirements    = (CPU_Type != "crs") && (CPU_Experiment == "star")
+Rank            = CPU_Speed
+Priority        = +19
+GetEnv          = True
+Initialdir      = /star/u/zamiller/simu/NPETemplates
+Input           = /dev/null
+Notify_user     = zamiller@rcf.rhic.bnl.gov
+GetEnv          = True
++Experiment     = "star"
++Job_Type       = "cas"
+
+Executable       = script/run_C32_64_0.csh
+Output           = log/C32_64_0.out
+Error            = log/C32_64_0.err
+Log              = log/C32_64_0.olog
+Queue
+
+Executable       = script/run_C32_64_1.csh
+Output           = log/C32_64_1.out
+Error            = log/C32_64_1.err
+Log              = log/C32_64_1.olog
+Queue
+
+Executable       = script/run_C32_64_2.csh
+Output           = log/C32_64_2.out
+Error            = log/C32_64_2.err
+Log              = log/C32_64_2.olog
+Queue
+
+Executable       = script/run_C32_64_3.csh
+Output           = log/C32_64_3.out
+Error            = log/C32_64_3.err
+Log              = log/C32_64_3.olog
+Queue
+
+Executable       = script/run_C32_64_4.csh
+Output           = log/C32_64_4.out
+Error            = log/C32_64_4.err
+Log              = log/C32_64_4.olog
+Queue
+
+Executable       = script/run_C32_64_5.csh
+Output           = log/C32_64_5.out
+Error            = log/C32_64_5.err
+Log              = log/C32_64_5.olog
+Queue
+
+Executable       = script/run_C32_64_6.csh
+Output           = log/C32_64_6.out
+Error            = log/C32_64_6.err
+Log              = log/C32_64_6.olog
+Queue
+
+Executable       = script/run_C32_64_7.csh
+Output           = log/C32_64_7.out
+Error            = log/C32_64_7.err
+Log              = log/C32_64_7.olog
+Queue
+
+Executable       = script/run_C32_64_8.csh
+Output           = log/C32_64_8.out
+Error            = log/C32_64_8.err
+Log              = log/C32_64_8.olog
+Queue
+
+Executable       = script/run_C32_64_9.csh
+Output           = log/C32_64_9.out
+Error            = log/C32_64_9.err
+Log              = log/C32_64_9.olog
+Queue
+
+Executable       = script/run_C32_64_10.csh
+Output           = log/C32_64_10.out
+Error            = log/C32_64_10.err
+Log              = log/C32_64_10.olog
+Queue
+
+Executable       = script/run_C32_64_11.csh
+Output           = log/C32_64_11.out
+Error            = log/C32_64_11.err
+Log              = log/C32_64_11.olog
+Queue
+
+Executable       = script/run_C32_64_12.csh
+Output           = log/C32_64_12.out
+Error            = log/C32_64_12.err
+Log              = log/C32_64_12.olog
+Queue
+
+Executable       = script/run_C32_64_13.csh
+Output           = log/C32_64_13.out
+Error            = log/C32_64_13.err
+Log              = log/C32_64_13.olog
+Queue
+
+Executable       = script/run_C32_64_14.csh
+Output           = log/C32_64_14.out
+Error            = log/C32_64_14.err
+Log              = log/C32_64_14.olog
+Queue
+
+Executable       = script/run_C32_64_15.csh
+Output           = log/C32_64_15.out
+Error            = log/C32_64_15.err
+Log              = log/C32_64_15.olog
+Queue
+
+Executable       = script/run_C32_64_16.csh
+Output           = log/C32_64_16.out
+Error            = log/C32_64_16.err
+Log              = log/C32_64_16.olog
+Queue
+
+Executable       = script/run_C32_64_17.csh
+Output           = log/C32_64_17.out
+Error            = log/C32_64_17.err
+Log              = log/C32_64_17.olog
+Queue
+
+Executable       = script/run_C32_64_18.csh
+Output           = log/C32_64_18.out
+Error            = log/C32_64_18.err
+Log              = log/C32_64_18.olog
+Queue
+
+Executable       = script/run_C32_64_19.csh
+Output           = log/C32_64_19.out
+Error            = log/C32_64_19.err
+Log              = log/C32_64_19.olog
+Queue
+
+Executable       = script/run_C32_64_20.csh
+Output           = log/C32_64_20.out
+Error            = log/C32_64_20.err
+Log              = log/C32_64_20.olog
+Queue
+
+Executable       = script/run_C32_64_21.csh
+Output           = log/C32_64_21.out
+Error            = log/C32_64_21.err
+Log              = log/C32_64_21.olog
+Queue
+
+Executable       = script/run_C32_64_22.csh
+Output           = log/C32_64_22.out
+Error            = log/C32_64_22.err
+Log              = log/C32_64_22.olog
+Queue
+
+Executable       = script/run_C32_64_23.csh
+Output           = log/C32_64_23.out
+Error            = log/C32_64_23.err
+Log              = log/C32_64_23.olog
+Queue
+
+Executable       = script/run_C32_64_24.csh
+Output           = log/C32_64_24.out
+Error            = log/C32_64_24.err
+Log              = log/C32_64_24.olog
+Queue
+

@@ -1,0 +1,163 @@
+Universe        = vanilla
+Notification    = never
+Requirements    = (CPU_Type != "crs") && (CPU_Experiment == "star")
+Rank            = CPU_Speed
+Priority        = +19
+GetEnv          = True
+Initialdir      = /star/u/zamiller/simu/NPETemplates
+Input           = /dev/null
+Notify_user     = zamiller@rcf.rhic.bnl.gov
+GetEnv          = True
++Experiment     = "star"
++Job_Type       = "cas"
+
+Executable       = script/run_B16_32_0.csh
+Output           = log/B16_32_0.out
+Error            = log/B16_32_0.err
+Log              = log/B16_32_0.olog
+Queue
+
+Executable       = script/run_B16_32_1.csh
+Output           = log/B16_32_1.out
+Error            = log/B16_32_1.err
+Log              = log/B16_32_1.olog
+Queue
+
+Executable       = script/run_B16_32_2.csh
+Output           = log/B16_32_2.out
+Error            = log/B16_32_2.err
+Log              = log/B16_32_2.olog
+Queue
+
+Executable       = script/run_B16_32_3.csh
+Output           = log/B16_32_3.out
+Error            = log/B16_32_3.err
+Log              = log/B16_32_3.olog
+Queue
+
+Executable       = script/run_B16_32_4.csh
+Output           = log/B16_32_4.out
+Error            = log/B16_32_4.err
+Log              = log/B16_32_4.olog
+Queue
+
+Executable       = script/run_B16_32_5.csh
+Output           = log/B16_32_5.out
+Error            = log/B16_32_5.err
+Log              = log/B16_32_5.olog
+Queue
+
+Executable       = script/run_B16_32_6.csh
+Output           = log/B16_32_6.out
+Error            = log/B16_32_6.err
+Log              = log/B16_32_6.olog
+Queue
+
+Executable       = script/run_B16_32_7.csh
+Output           = log/B16_32_7.out
+Error            = log/B16_32_7.err
+Log              = log/B16_32_7.olog
+Queue
+
+Executable       = script/run_B16_32_8.csh
+Output           = log/B16_32_8.out
+Error            = log/B16_32_8.err
+Log              = log/B16_32_8.olog
+Queue
+
+Executable       = script/run_B16_32_9.csh
+Output           = log/B16_32_9.out
+Error            = log/B16_32_9.err
+Log              = log/B16_32_9.olog
+Queue
+
+Executable       = script/run_B16_32_10.csh
+Output           = log/B16_32_10.out
+Error            = log/B16_32_10.err
+Log              = log/B16_32_10.olog
+Queue
+
+Executable       = script/run_B16_32_11.csh
+Output           = log/B16_32_11.out
+Error            = log/B16_32_11.err
+Log              = log/B16_32_11.olog
+Queue
+
+Executable       = script/run_B16_32_12.csh
+Output           = log/B16_32_12.out
+Error            = log/B16_32_12.err
+Log              = log/B16_32_12.olog
+Queue
+
+Executable       = script/run_B16_32_13.csh
+Output           = log/B16_32_13.out
+Error            = log/B16_32_13.err
+Log              = log/B16_32_13.olog
+Queue
+
+Executable       = script/run_B16_32_14.csh
+Output           = log/B16_32_14.out
+Error            = log/B16_32_14.err
+Log              = log/B16_32_14.olog
+Queue
+
+Executable       = script/run_B16_32_15.csh
+Output           = log/B16_32_15.out
+Error            = log/B16_32_15.err
+Log              = log/B16_32_15.olog
+Queue
+
+Executable       = script/run_B16_32_16.csh
+Output           = log/B16_32_16.out
+Error            = log/B16_32_16.err
+Log              = log/B16_32_16.olog
+Queue
+
+Executable       = script/run_B16_32_17.csh
+Output           = log/B16_32_17.out
+Error            = log/B16_32_17.err
+Log              = log/B16_32_17.olog
+Queue
+
+Executable       = script/run_B16_32_18.csh
+Output           = log/B16_32_18.out
+Error            = log/B16_32_18.err
+Log              = log/B16_32_18.olog
+Queue
+
+Executable       = script/run_B16_32_19.csh
+Output           = log/B16_32_19.out
+Error            = log/B16_32_19.err
+Log              = log/B16_32_19.olog
+Queue
+
+Executable       = script/run_B16_32_20.csh
+Output           = log/B16_32_20.out
+Error            = log/B16_32_20.err
+Log              = log/B16_32_20.olog
+Queue
+
+Executable       = script/run_B16_32_21.csh
+Output           = log/B16_32_21.out
+Error            = log/B16_32_21.err
+Log              = log/B16_32_21.olog
+Queue
+
+Executable       = script/run_B16_32_22.csh
+Output           = log/B16_32_22.out
+Error            = log/B16_32_22.err
+Log              = log/B16_32_22.olog
+Queue
+
+Executable       = script/run_B16_32_23.csh
+Output           = log/B16_32_23.out
+Error            = log/B16_32_23.err
+Log              = log/B16_32_23.olog
+Queue
+
+Executable       = script/run_B16_32_24.csh
+Output           = log/B16_32_24.out
+Error            = log/B16_32_24.err
+Log              = log/B16_32_24.olog
+Queue
+
