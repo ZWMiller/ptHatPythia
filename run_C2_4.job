@@ -4,7 +4,7 @@ Requirements    = (CPU_Type != "crs") && (CPU_Experiment == "star")
 Rank            = CPU_Speed
 Priority        = +19
 GetEnv          = True
-Initialdir      = /star/u/zamiller/simu/NPETemplates
+Initialdir      = /star/u/zamiller/simu/ptHatTemplates
 Input           = /dev/null
 Notify_user     = zamiller@rcf.rhic.bnl.gov
 GetEnv          = True
@@ -159,5 +159,155 @@ Executable       = script/run_C2_4_24.csh
 Output           = log/C2_4_24.out
 Error            = log/C2_4_24.err
 Log              = log/C2_4_24.olog
+Queue
+
+Executable       = script/run_C2_4_25.csh
+Output           = log/C2_4_25.out
+Error            = log/C2_4_25.err
+Log              = log/C2_4_25.olog
+Queue
+
+Executable       = script/run_C2_4_26.csh
+Output           = log/C2_4_26.out
+Error            = log/C2_4_26.err
+Log              = log/C2_4_26.olog
+Queue
+
+Executable       = script/run_C2_4_27.csh
+Output           = log/C2_4_27.out
+Error            = log/C2_4_27.err
+Log              = log/C2_4_27.olog
+Queue
+
+Executable       = script/run_C2_4_28.csh
+Output           = log/C2_4_28.out
+Error            = log/C2_4_28.err
+Log              = log/C2_4_28.olog
+Queue
+
+Executable       = script/run_C2_4_29.csh
+Output           = log/C2_4_29.out
+Error            = log/C2_4_29.err
+Log              = log/C2_4_29.olog
+Queue
+
+Executable       = script/run_C2_4_30.csh
+Output           = log/C2_4_30.out
+Error            = log/C2_4_30.err
+Log              = log/C2_4_30.olog
+Queue
+
+Executable       = script/run_C2_4_31.csh
+Output           = log/C2_4_31.out
+Error            = log/C2_4_31.err
+Log              = log/C2_4_31.olog
+Queue
+
+Executable       = script/run_C2_4_32.csh
+Output           = log/C2_4_32.out
+Error            = log/C2_4_32.err
+Log              = log/C2_4_32.olog
+Queue
+
+Executable       = script/run_C2_4_33.csh
+Output           = log/C2_4_33.out
+Error            = log/C2_4_33.err
+Log              = log/C2_4_33.olog
+Queue
+
+Executable       = script/run_C2_4_34.csh
+Output           = log/C2_4_34.out
+Error            = log/C2_4_34.err
+Log              = log/C2_4_34.olog
+Queue
+
+Executable       = script/run_C2_4_35.csh
+Output           = log/C2_4_35.out
+Error            = log/C2_4_35.err
+Log              = log/C2_4_35.olog
+Queue
+
+Executable       = script/run_C2_4_36.csh
+Output           = log/C2_4_36.out
+Error            = log/C2_4_36.err
+Log              = log/C2_4_36.olog
+Queue
+
+Executable       = script/run_C2_4_37.csh
+Output           = log/C2_4_37.out
+Error            = log/C2_4_37.err
+Log              = log/C2_4_37.olog
+Queue
+
+Executable       = script/run_C2_4_38.csh
+Output           = log/C2_4_38.out
+Error            = log/C2_4_38.err
+Log              = log/C2_4_38.olog
+Queue
+
+Executable       = script/run_C2_4_39.csh
+Output           = log/C2_4_39.out
+Error            = log/C2_4_39.err
+Log              = log/C2_4_39.olog
+Queue
+
+Executable       = script/run_C2_4_40.csh
+Output           = log/C2_4_40.out
+Error            = log/C2_4_40.err
+Log              = log/C2_4_40.olog
+Queue
+
+Executable       = script/run_C2_4_41.csh
+Output           = log/C2_4_41.out
+Error            = log/C2_4_41.err
+Log              = log/C2_4_41.olog
+Queue
+
+Executable       = script/run_C2_4_42.csh
+Output           = log/C2_4_42.out
+Error            = log/C2_4_42.err
+Log              = log/C2_4_42.olog
+Queue
+
+Executable       = script/run_C2_4_43.csh
+Output           = log/C2_4_43.out
+Error            = log/C2_4_43.err
+Log              = log/C2_4_43.olog
+Queue
+
+Executable       = script/run_C2_4_44.csh
+Output           = log/C2_4_44.out
+Error            = log/C2_4_44.err
+Log              = log/C2_4_44.olog
+Queue
+
+Executable       = script/run_C2_4_45.csh
+Output           = log/C2_4_45.out
+Error            = log/C2_4_45.err
+Log              = log/C2_4_45.olog
+Queue
+
+Executable       = script/run_C2_4_46.csh
+Output           = log/C2_4_46.out
+Error            = log/C2_4_46.err
+Log              = log/C2_4_46.olog
+Queue
+
+Executable       = script/run_C2_4_47.csh
+Output           = log/C2_4_47.out
+Error            = log/C2_4_47.err
+Log              = log/C2_4_47.olog
+Queue
+
+Executable       = script/run_C2_4_48.csh
+Output           = log/C2_4_48.out
+Error            = log/C2_4_48.err
+Log              = log/C2_4_48.olog
+Queue
+
+Executable       = script/run_C2_4_49.csh
+Output           = log/C2_4_49.out
+Error            = log/C2_4_49.err
+Log              = log/C2_4_49.olog
 Queue
 

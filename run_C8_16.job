@@ -4,7 +4,7 @@ Requirements    = (CPU_Type != "crs") && (CPU_Experiment == "star")
 Rank            = CPU_Speed
 Priority        = +19
 GetEnv          = True
-Initialdir      = /star/u/zamiller/simu/NPETemplates
+Initialdir      = /star/u/zamiller/simu/ptHatTemplates
 Input           = /dev/null
 Notify_user     = zamiller@rcf.rhic.bnl.gov
 GetEnv          = True
@@ -159,5 +159,155 @@ Executable       = script/run_C8_16_24.csh
 Output           = log/C8_16_24.out
 Error            = log/C8_16_24.err
 Log              = log/C8_16_24.olog
+Queue
+
+Executable       = script/run_C8_16_25.csh
+Output           = log/C8_16_25.out
+Error            = log/C8_16_25.err
+Log              = log/C8_16_25.olog
+Queue
+
+Executable       = script/run_C8_16_26.csh
+Output           = log/C8_16_26.out
+Error            = log/C8_16_26.err
+Log              = log/C8_16_26.olog
+Queue
+
+Executable       = script/run_C8_16_27.csh
+Output           = log/C8_16_27.out
+Error            = log/C8_16_27.err
+Log              = log/C8_16_27.olog
+Queue
+
+Executable       = script/run_C8_16_28.csh
+Output           = log/C8_16_28.out
+Error            = log/C8_16_28.err
+Log              = log/C8_16_28.olog
+Queue
+
+Executable       = script/run_C8_16_29.csh
+Output           = log/C8_16_29.out
+Error            = log/C8_16_29.err
+Log              = log/C8_16_29.olog
+Queue
+
+Executable       = script/run_C8_16_30.csh
+Output           = log/C8_16_30.out
+Error            = log/C8_16_30.err
+Log              = log/C8_16_30.olog
+Queue
+
+Executable       = script/run_C8_16_31.csh
+Output           = log/C8_16_31.out
+Error            = log/C8_16_31.err
+Log              = log/C8_16_31.olog
+Queue
+
+Executable       = script/run_C8_16_32.csh
+Output           = log/C8_16_32.out
+Error            = log/C8_16_32.err
+Log              = log/C8_16_32.olog
+Queue
+
+Executable       = script/run_C8_16_33.csh
+Output           = log/C8_16_33.out
+Error            = log/C8_16_33.err
+Log              = log/C8_16_33.olog
+Queue
+
+Executable       = script/run_C8_16_34.csh
+Output           = log/C8_16_34.out
+Error            = log/C8_16_34.err
+Log              = log/C8_16_34.olog
+Queue
+
+Executable       = script/run_C8_16_35.csh
+Output           = log/C8_16_35.out
+Error            = log/C8_16_35.err
+Log              = log/C8_16_35.olog
+Queue
+
+Executable       = script/run_C8_16_36.csh
+Output           = log/C8_16_36.out
+Error            = log/C8_16_36.err
+Log              = log/C8_16_36.olog
+Queue
+
+Executable       = script/run_C8_16_37.csh
+Output           = log/C8_16_37.out
+Error            = log/C8_16_37.err
+Log              = log/C8_16_37.olog
+Queue
+
+Executable       = script/run_C8_16_38.csh
+Output           = log/C8_16_38.out
+Error            = log/C8_16_38.err
+Log              = log/C8_16_38.olog
+Queue
+
+Executable       = script/run_C8_16_39.csh
+Output           = log/C8_16_39.out
+Error            = log/C8_16_39.err
+Log              = log/C8_16_39.olog
+Queue
+
+Executable       = script/run_C8_16_40.csh
+Output           = log/C8_16_40.out
+Error            = log/C8_16_40.err
+Log              = log/C8_16_40.olog
+Queue
+
+Executable       = script/run_C8_16_41.csh
+Output           = log/C8_16_41.out
+Error            = log/C8_16_41.err
+Log              = log/C8_16_41.olog
+Queue
+
+Executable       = script/run_C8_16_42.csh
+Output           = log/C8_16_42.out
+Error            = log/C8_16_42.err
+Log              = log/C8_16_42.olog
+Queue
+
+Executable       = script/run_C8_16_43.csh
+Output           = log/C8_16_43.out
+Error            = log/C8_16_43.err
+Log              = log/C8_16_43.olog
+Queue
+
+Executable       = script/run_C8_16_44.csh
+Output           = log/C8_16_44.out
+Error            = log/C8_16_44.err
+Log              = log/C8_16_44.olog
+Queue
+
+Executable       = script/run_C8_16_45.csh
+Output           = log/C8_16_45.out
+Error            = log/C8_16_45.err
+Log              = log/C8_16_45.olog
+Queue
+
+Executable       = script/run_C8_16_46.csh
+Output           = log/C8_16_46.out
+Error            = log/C8_16_46.err
+Log              = log/C8_16_46.olog
+Queue
+
+Executable       = script/run_C8_16_47.csh
+Output           = log/C8_16_47.out
+Error            = log/C8_16_47.err
+Log              = log/C8_16_47.olog
+Queue
+
+Executable       = script/run_C8_16_48.csh
+Output           = log/C8_16_48.out
+Error            = log/C8_16_48.err
+Log              = log/C8_16_48.olog
+Queue
+
+Executable       = script/run_C8_16_49.csh
+Output           = log/C8_16_49.out
+Error            = log/C8_16_49.err
+Log              = log/C8_16_49.olog
 Queue
 

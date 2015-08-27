@@ -62,7 +62,7 @@ int main(int argc, char* argv[]) {
   TFile *hfile  = new TFile(rootfile,"RECREATE");
   vector<TH2D*> histos2D;
   sprintf(text,"histos2D%s%d",histname,0);
-  histos2D.push_back(new TH2D(text,"NPE - h", 150,0.,15.,200, -0.5*M_PI, 1.5*M_PI));
+  histos2D.push_back(new TH2D(text,"NPE - h", 150,0.,15.,200, -10, 10));
   sprintf(text,"histos2D%s%d",histname,1);
   histos2D.push_back(new TH2D(text,"NPE pt vs y", 150, 0., 15., 60, -3, 3));
   sprintf(text,"histos2D%s%d",histname,2);
@@ -89,7 +89,7 @@ int main(int argc, char* argv[]) {
   sprintf(text,"histo3D%s%d",histname,0);
   histos3D.push_back(new TH3D(text,"NPE - h", 150,0.,15., 150,0,15, 200, -10., 10.));
   sprintf(text,"histo3D%s%d",histname,1);
-  histos3D.push_back(new TH3D(text,"NPE - B-->h", 150,0.,15.,150,0,15,200, -0.5*M_PI, 1.5*M_PI));
+  histos3D.push_back(new TH3D(text,"NPE - B-->h", 150,0.,15.,150,0,15,200, -10, 10));
 
   TH1D *hStatistics=new TH1D("hStatistics","Production Statistics",2,0,10);
 
