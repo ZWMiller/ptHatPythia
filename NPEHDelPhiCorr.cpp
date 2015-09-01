@@ -82,7 +82,7 @@ int main(int argc, char* argv[]) {
   sprintf(text,"histos2D%s%d",histname,9);
   histos2D.push_back(new TH2D(text,"B daughter pt", 150, 0, 15, 150, 0, 15.));
   sprintf(text,"histos2D%s%d",histname,10);
-  histos2D.push_back(new TH2D(text,"pthat vs NPEpt", 150, 0., 15., 150, 0, 15));
+  histos2D.push_back(new TH2D(text,"pthat vs NPEpt", 150, 0., 15., 1500, 0, 150));
 
 
   vector<TH3D*> histos3D;
