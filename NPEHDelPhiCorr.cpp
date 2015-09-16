@@ -31,6 +31,8 @@ bool isInAcceptanceH(int, const Event&);  // acceptance filter hadron candidate
 int myEvent(Pythia&, vector<TH2D*> &, vector<TH3D*>&, double); // event handler (analyze event)
 double deltaPhi(double, double); 
 double deltaEta(double, double);
+TH1D *delPhi      = new TH1D("delPhi","delta phi", 200,-10,10);
+TH1D *trigCount   = new TH1D("trigCount","Trigger Count",10,0,10);
 
 int main(int argc, char* argv[]) {
     
@@ -91,7 +93,7 @@ int main(int argc, char* argv[]) {
   sprintf(text,"histo3D%s%d",histname,1);
   histos3D.push_back(new TH3D(text,"NPE - B-->h", 150,0.,15.,150,0,15,200, -10, 10));
 
-  TH1D *hStatistics=new TH1D("hStatistics","Production Statistics",2,0,10);
+  TH1D *hStatistics = new TH1D("hStatistics","Production Statistics",2,0,10);
 
   //
   //  Create instance of Pythia 
@@ -247,7 +249,7 @@ int myEvent(Pythia& pythia, vector<TH2D*> &histos2D, vector<TH3D*> &histos3D, do
 	break;
       }
     
-           
+      
       // At this point we have J/psi and mother B, the J/psi detectable in
       // STAR.
       // We require them to be stable, i.e. not decayed.
@@ -261,7 +263,9 @@ int myEvent(Pythia& pythia, vector<TH2D*> &histos2D, vector<TH3D*> &histos3D, do
 	  //	  if (event.isAncestor(i, i_B)) B_hadrons.push_back(i); // From Bingchu code, save in case needed later
 	}
       }
-      
+      if(event[ie].pT() > 2.5 && event[ie].pT() < 3.5) 
+	trigCount->Fill(0.5); // Fill the first bin every time there is a trigger in 2.5-3.5 GeV range, in order to count events
+  
       //
       //  Fill histograms                                                       
       //
@@ -290,6 +294,8 @@ int myEvent(Pythia& pythia, vector<TH2D*> &histos2D, vector<TH3D*> &histos3D, do
 	if(!(phi1==0) && !(phi2==0))
 	  dphi = deltaPhi(phi1, phi2);
 	histos3D[0]->Fill(npept, event[hid].pT(), dphi);
+	if(event[ie].pT() > 2.5 && event[ie].pT()< 3.5)
+	  delPhi->Fill(dphi); // Fill 1D histo only when in range of interest
 	//if(event[hid].pT()<0.5) continue; // In Bingchu code, remove. Does not effect histograms in use for offline replay
 	histos2D[0]->Fill(npept, dphi);
 	if( abs(dphi) < 1) {//near side                                                   
