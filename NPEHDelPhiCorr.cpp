@@ -290,7 +290,7 @@ int myEvent(Pythia& pythia, vector<TH2D*> &histos2D, vector<TH3D*> &histos3D, do
 	if(!(phi1==0) && !(phi2==0))
 	  dphi = deltaPhi(phi1, phi2);
 	histos3D[0]->Fill(npept, event[hid].pT(), dphi);
-	if(event[hid].pT()<0.5) continue;
+	//if(event[hid].pT()<0.5) continue; // In Bingchu code, remove. Does not effect histograms in use for offline replay
 	histos2D[0]->Fill(npept, dphi);
 	if( abs(dphi) < 1) {//near side                                                   
 	  nnear++;
@@ -337,7 +337,7 @@ bool isInAcceptanceH(int i, const Event& event)
 {
   // limit to STAR TPC/BEMC/ToF acceptance                                              
   double eta = event[i].eta();
-  if (fabs(eta) < 1)
+  if (fabs(eta) < 1.0)
     return true;
   else
     return false;
