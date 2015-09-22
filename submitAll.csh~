@@ -1,0 +1,18 @@
+
+condor_submit run_C0_1.job
+condor_submit run_C1_2.job
+condor_submit run_C2_4.job
+condor_submit run_C4_8.job
+condor_submit run_C8_16.job
+condor_submit run_C16_32.job
+condor_submit run_C32_64.job
+condor_submit run_C64_128.job
+
+condor_submit run_B0_1.job
+condor_submit run_B1_2.job
+condor_submit run_B2_4.job
+condor_submit run_B4_8.job
+condor_submit run_B8_16.job
+condor_submit run_B16_32.job
+condor_submit run_B32_64.job
+condor_submit run_B64_128.job
